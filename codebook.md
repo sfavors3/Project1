@@ -11,30 +11,30 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Once the files were download, the following files were extracted from the original dataset and renamed, in part to make merging the documents more seemless.  These files were also organized into three different folders as follows:
 
             originalfile:renamed
-headers:    features.txt:columns.txt
-            activity_labels.txt:rows.txt
-test:       subject_test.txt:2subject.txt
-            X_test.txt:1data.txt
-            y_test.txt:3activities.txt
-train:      subject_train.txt:2subject.txt
-            X_train.txt:1data.txt
-            y_train.txt:3activities.txt
+####headers:    features.txt:columns.txt
+####            activity_labels.txt:rows.txt
+####test:       subject_test.txt:2subject.txt
+####            X_test.txt:1data.txt
+####            y_test.txt:3activities.txt
+####train:      subject_train.txt:2subject.txt
+####            X_train.txt:1data.txt
+####            y_train.txt:3activities.txt
             
 The following variables were used to import the data and merge the train and test datasets.  Before the train and test datasets were merged, each dataset was ordered and merged with the activity_labels (rows.txt) to give the activities a descriptive name.  The column with the activity numbers were removed.  
-merge()
-list.files()
-do.call()
-cbind()
-rbind()
-lapply()
-colnames()
-sub()
-grep()
-setwd()
-read.table()
-order()
-return()
-aggregate() 
+####merge()
+####list.files()
+####do.call()
+####cbind()
+####rbind()
+####lapply()
+####colnames()
+####sub()
+####grep()
+####setwd()
+####read.table()
+####order()
+####return()
+####aggregate() 
 
 Afterwards, extracted the the mean and standard deviation columns from the dataset.  Used the aggregate variable to group the data.  Once it was grouped, added meaning column names to the dataset and created a text file from the dataset.  The final dataset consist of the following columns:
 
