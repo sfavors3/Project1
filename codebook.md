@@ -20,7 +20,9 @@ Once the files were download, the following files were extracted from the origin
 ####            X_train.txt:1data.txt
 ####            y_train.txt:3activities.txt
             
-The following variables were used to import the data and merge the train and test datasets.  Before the train and test datasets were merged, each dataset was ordered and merged with the activity_labels (rows.txt) to give the activities a descriptive name.  The column with the activity numbers were removed.  
+The following variables were used to import the data and merge the train and test datasets.  Before the train and test datasets were merged, each dataset was ordered and merged with the activity_labels (rows.txt) to give the activities a descriptive name.  The column with the activity numbers were removed. 
+
+##Variables:
 ####merge()
 ####list.files()
 ####do.call()
