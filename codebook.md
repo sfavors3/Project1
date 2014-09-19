@@ -38,7 +38,7 @@ The following variables were used to import the data and merge the train and tes
 ####return()
 ####aggregate() 
 
-Afterwards, extracted the the mean and standard deviation columns from the dataset.  Used the aggregate variable to group the data.  Once it was grouped, added meaning column names to the dataset and created a text file from the dataset.  The final dataset consist of the following columns:
+Afterwards, extracted the the mean and standard deviation columns from the dataset.  Used the aggregate variable to group the data.  Once it was grouped, added meaningful column names to the dataset and created a text file from the dataset.  The final dataset consist of the following columns:
 
 subject:int
 activity:factor
