@@ -1,6 +1,6 @@
 ---
 title: "Codebook for Gathering and Cleaning Data"
-author: "Sherry Favors"
+author: 
 date: "Wednesday, September 17, 2014"
 output: html_document
 ---
